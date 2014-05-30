@@ -1,0 +1,36 @@
+{
+  "name": "winston-child",
+  "version": "1.0.0",
+  "description": "Facilitates meta object inheritance for Winston loggers.",
+  "keywords": ["winston", "plugin", "context"],
+  "homepage": "https://github.com/alexgorbatchev/winston-child",
+  "bugs": "https://github.com/alexgorbatchev/winston-child/issues",
+  "author": {
+    "name": "Alex Gorbatchev",
+    "url": "https://github.com/alexgorbatchev"
+  },
+  "main": "./lib/winston-child.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexgorbatchev/winston-child.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.spec.coffee",
+    "pretest": "./node_modules/.bin/coffee --bare --output ./lib --compile ./src/*.coffee"
+  },
+  "dependencies": {
+    "extend": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coffee-errors": "^0.8.5",
+    "coffee-script": "^1.7.1",
+    "mocha": "^1.18.2",
+    "winston": "^0.7.3"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
