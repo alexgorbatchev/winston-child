@@ -19,14 +19,14 @@
     "pretest": "./node_modules/.bin/coffee --bare --output ./lib --compile ./src/*.coffee"
   },
   "dependencies": {
-    "extend": "^1.2.1"
+    "extend": "^3.0.0"
   },
   "devDependencies": {
-    "chai": "^1.9.1",
+    "chai": "^3.5.0",
     "coffee-errors": "^0.8.5",
     "coffee-script": "^1.7.1",
-    "mocha": "^1.18.2",
-    "winston": "^0.7.3"
+    "mocha": "^3.2.0",
+    "winston": "^2.3.0"
   },
   "engines": {
     "node": ">=0.10.0",
