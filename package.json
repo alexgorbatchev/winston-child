@@ -19,7 +19,7 @@
     "pretest": "./node_modules/.bin/coffee --bare --output ./lib --compile ./src/*.coffee"
   },
   "dependencies": {
-    "extend": "^1.2.1"
+    "extend": "^2.0.2"
   },
   "devDependencies": {
     "chai": "^1.9.1",
